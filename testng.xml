@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="2" thread-count="5">
+<listeners>
+<listener class-name ="utility.Listener"> </listener>
+</listeners>
+<parameter name="url" value="https://www.bestbuy.com/"> </parameter>
+ <parameter name="browser" value="chrome"></parameter>
+ <test name="Test">
+   <classes>
+	   <class name="testcases.TC009_LaunchApplication"/>
+	   <class name="testcases.TC0010_LaunchApplication"/>
+     <class name="testcases.TC0011_LaunchApplication"/>
+      <class name="testcases.TC0012_LaunchApplication"/>
+       <class name="testcases.TC0013_LaunchApplication"/>
+        <class name="testcases.TC0014_LaunchApplication"/>
+         <class name="testcases.TC0015_LaunchApplication"/>
+          <class name="testcases.TC0016_LaunchApplication"/>
+          
+   </classes>
+ </test> <!-- Test -->
+ </suite> <!-- Suite -->
+
